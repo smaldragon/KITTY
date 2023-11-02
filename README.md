@@ -14,11 +14,11 @@ Address  | Function | Size (Kb)
 
 Address  | Function | Mode | Bits
 ---------|---|--------|-----|
-**$7000**| Keyboard Row 1 | R | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Ctrl</kbd>
-**$7010**| Keyboard Row 2 | R | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Ctrl</kbd>
-**$7020**| Keyboard Row 3 | R | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Ctrl</kbd>
-**$7030**| Keyboard Row 4 | R | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Ctrl</kbd>
-**$7040**| Keyboard Row 5 | R | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Space</kbd> <kbd>Ctrl</kbd> <kbd>Ctrl</kbd>
+**$7000**| Keyboard Row 1 | R | <kbd>O</kbd> <kbd>I</kbd> <kbd>U</kbd> <kbd>T</kbd> <kbd>R</kbd> <kbd>E</kbd> <kbd>W</kbd> <kbd>Esc</kbd>
+**$7010**| Keyboard Row 2 | R | <kbd>P</kbd> <kbd>K</kbd> <kbd>J</kbd> <kbd>Y</kbd> <kbd>G</kbd> <kbd>S</kbd> <kbd>Q</kbd> <kbd>Alt</kbd>
+**$7020**| Keyboard Row 3 | R | <kbd>Backspace</kbd> <kbd>L</kbd> <kbd>M</kbd> <kbd>H</kbd> <kbd>V</kbd> <kbd>D</kbd> <kbd>A</kbd> <kbd>Shift</kbd>
+**$7030**| Keyboard Row 4 | R | <kbd>Enter</kbd> <kbd>.</kbd> <kbd>\\|</kbd> <kbd>N</kbd> <kbd>B</kbd> <kbd>F</kbd> <kbd>Z</kbd> <kbd>Caps</kbd>
+**$7040**| Keyboard Row 5 | R | <kbd>→</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>↑</kbd> <kbd>Space</kbd> <kbd>C</kbd> <kbd>X</kbd> <kbd>Ctrl</kbd>
 **$70D0**| BANK (active cartridge (0/1) + active 32Kb Bank (0-127) | W | `C BBBBBBB`
 **$70E0**| Square 1 Freq | R/W | `FFFFFFFF` *1
 **$70E0**| Square 2 Freq | R/W | `FFFFFFFF` *1
