@@ -1,4 +1,10 @@
-# Computer
+# KITTY Computer
+
+KITTY is a 65c02 Homebrew Home Computer designed around text mode graphics and cartridge media.
+
+* [Schematics](schematics.md)
+
+![Picture of Prototype Board](Images/computer.jpg)
 
 ## Memory Map
 Address  | Function | Size (Kb)
