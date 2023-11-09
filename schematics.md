@@ -9,13 +9,10 @@
 ![Video](Images/3.png)
 
 ## Audio
-![Audio](Images/3.png)
+![Audio](Images/4.png)
 
 ## Memory Mapping/RAM
-![Memory](Images/4.png)
-
-## Input and Output
-![I/O](Images/5.png)
+![Memory](Images/5.png)
 
 ## Input and Output
 ![I/O](Images/6.png)
