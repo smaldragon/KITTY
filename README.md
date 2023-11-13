@@ -38,9 +38,9 @@ Address  | Function | Mode | Bits
 **$7040**| Keyboard Row 5 | R | <kbd>→</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>↑</kbd> <kbd>Space</kbd> <kbd>C</kbd> <kbd>X</kbd> <kbd>Ctrl</kbd>
 **$70D0**| BANK (active cartridge (0/1) + active 32Kb Bank (0-127) | W | `C BBBBBBB`
 **$70E0**| Square 1 Freq | R/W | `FFFFFFFF` *1
-**$70E0**| Square 2 Freq | R/W | `FFFFFFFF` *1
-**$70E0**| Square 3 Freq | R/W | `FFFFFFFF` *1
-**$70E0**| Freq Control Word (write before setting channel frequency) | R/W | `SS WW MMM B` *1
+**$70E1**| Square 2 Freq | R/W | `FFFFFFFF` *1
+**$70E2**| Square 3 Freq | R/W | `FFFFFFFF` *1
+**$70E3**| Freq Control Word (write before setting channel frequency) | R/W | `SS WW MMM B` *1
 **$70F0**| Square 1 Volume (Left/Right) | W | `LLLL RRRR`
 **$70F1**| Square 2 Volume (Left/Right) | W | `LLLL RRRR`
 **$70F2**| Square 3 Volume (Left/Right) | W | `LLLL RRRR`
