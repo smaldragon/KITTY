@@ -4,6 +4,7 @@ nav:
   - Home: index.md
 # - Power: power.md
 # - Cartridges: cartridge.md
+  - Cartridges and Memory: cartridge.md
   - Interrupts: interrupt.md
   - Video: video.md
   - Audio: audio.md

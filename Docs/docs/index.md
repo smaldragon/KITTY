@@ -12,11 +12,13 @@ I wish you a fun and (hopefully) educational time exploring this little system
 
 ![](photo.jpg)
 
+> The original v0a board prototype
+
 ## Details
 
-The current iteration of the KITTY board (v0b) uses only in-production parts, with custom features like video and audio being implemented through the means of discrete 74-series logic. All ICs are in either Dual-In-Line packages or PLCC using through hole sockets. No surface mount soldering is required.
+The current iteration of the KITTY board (v1a) uses only in-production parts and is open hardware that anyone can tweak and build upon, on the v1a board custom features like video and audio are all implemented through the means of discrete 74-series logic. All ICs are in either Dual-In-Line packages or PLCC packages using through hole sockets, so that no surface mount soldering is required for assembly and all ICs can be easily placed or removed.
 
-All components, their values, and their general function within the circuit are written on the silkscreen itself.
+Finally, all components, their values, and their general function within the circuit are written on the silkscreen itself, as I wanted a board that was easy to assemble and understand.
 
 ## SPECS
 
