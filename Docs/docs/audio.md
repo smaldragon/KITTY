@@ -39,7 +39,7 @@ In hardware 4 `74hc165` shift-registers hold each waveform and are clocked in a 
 
 ## Setting the Frequency (Channels 1-3)
 
-The frequency of the melodic channels (1-3) are controlled by a `82c54` tripple timer addressable at `$70E0-$70E3`, this is a chip also found in the original IBM PC, where it is used to control its beeper (along with other non-sound functions). Its programming is a bit more complex compared to the other sound registers, but I will try and explain it here as best I can.
+The frequency of the melodic channels (1-3) are controlled by a `82c54` triple timer addressable at `$70E0-$70E3`, this is a chip also found in the original IBM PC, where it is used to control its beeper (along with other non-sound functions). Its programming is a bit more complex compared to the other sound registers, but I will try and explain it here as best I can.
 
 ---
 
@@ -89,10 +89,10 @@ Example:
     lda $93
     sta [$70E0]
 ```
-> **NOTE:** A counter value of 0 is equivelant to 65536, while a counter value of 1 is *illegal* and should not be used.
+> **NOTE:** A counter value of 0 is equivalent to 65536, while a counter value of 1 is *illegal* and should not be used.
 
 ## The Percussive Channel (channel 4)
 
-Unlike the first 3 "melodic" channels, channel 4 lacks frequency control, and instead uses a fixed frequency of 50hz, which is syncronized with the video circuit.
+Unlike the first 3 "melodic" channels, channel 4 lacks frequency control, and instead uses a fixed frequency of 50hz, which is synchronized with the video circuit.
 
 By carefully writing new wavetable values to this register once per frame (when the screen IRQ is called), it is thus possible to generate simple percussive sounds like white noise and drums.
