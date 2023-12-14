@@ -1261,11 +1261,6 @@
     (uuid fd028e0d-ef3b-4967-b30f-a529afb1e4bc)
   )
 
-  (text "note: confirm if R/W pinouts are correct" (at 26.67 137.16 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 31ea1972-98be-4565-8384-16eae7048e70)
-  )
-
   (label "Osc 2" (at 93.98 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0a7ebe25-ac6a-4657-b545-80c95d194abd)
