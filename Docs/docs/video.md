@@ -24,3 +24,9 @@ An approximation of the KITTY's color palette:
 The font is a variation of ascii:
 
 ![](font-export.png)
+
+# Details
+
+The color palette is generated from the following resistor DAC:
+
+![](video-dac.png)
