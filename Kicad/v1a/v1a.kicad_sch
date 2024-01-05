@@ -1463,7 +1463,7 @@
   (symbol (lib_id "Device:C") (at 87.63 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c497c05-d66e-4696-ae9b-1328e78c6363)
-    (property "Reference" "C?" (at 91.44 64.77 0)
+    (property "Reference" "Cd1" (at 91.44 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 91.44 67.31 0)
@@ -1479,9 +1479,6 @@
     (pin "2" (uuid ba4b76b4-b06b-4cc5-b050-2deb2afa5038))
     (instances
       (project "v1a"
-        (path "/82bc3382-6295-4121-a2db-2433a00f189b/0beb40b4-3ea5-423b-b5b9-637bbdbde287"
-          (reference "C?") (unit 1)
-        )
         (path "/82bc3382-6295-4121-a2db-2433a00f189b"
           (reference "Cd1") (unit 1)
         )
@@ -1590,7 +1587,7 @@
   (symbol (lib_id "power:GND") (at 87.63 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb69fa2b-51f9-40a9-b599-5a3e3cb704b1)
-    (property "Reference" "#PWR0135" (at 87.63 76.2 0)
+    (property "Reference" "#PWR05" (at 87.63 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 74.93 0)
@@ -1605,9 +1602,6 @@
     (pin "1" (uuid ce17a193-b057-4f11-a5a2-18d1163d4f5d))
     (instances
       (project "v1a"
-        (path "/82bc3382-6295-4121-a2db-2433a00f189b/0beb40b4-3ea5-423b-b5b9-637bbdbde287"
-          (reference "#PWR0135") (unit 1)
-        )
         (path "/82bc3382-6295-4121-a2db-2433a00f189b"
           (reference "#PWR05") (unit 1)
         )
@@ -1618,7 +1612,7 @@
   (symbol (lib_id "power:+5V") (at 87.63 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d72f4464-0b6a-4873-a691-483b8de8d4b1)
-    (property "Reference" "#PWR0136" (at 87.63 66.04 0)
+    (property "Reference" "#PWR04" (at 87.63 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 87.63 57.15 0)
@@ -1633,9 +1627,6 @@
     (pin "1" (uuid 6f514882-e05a-4e8e-8392-e0138a38a390))
     (instances
       (project "v1a"
-        (path "/82bc3382-6295-4121-a2db-2433a00f189b/0beb40b4-3ea5-423b-b5b9-637bbdbde287"
-          (reference "#PWR0136") (unit 1)
-        )
         (path "/82bc3382-6295-4121-a2db-2433a00f189b"
           (reference "#PWR04") (unit 1)
         )
