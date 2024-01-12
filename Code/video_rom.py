@@ -53,6 +53,7 @@ welp = 0
 for line in range(312):
     rom[48*line].sync = True
     rom[48*line+1].sync = True
+    rom[48*line+2].sync = True
     
     if line%39 == 0:
         rom[48*line].fxtick = True
